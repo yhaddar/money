@@ -37,6 +37,11 @@ dependencies:
   google_fonts: ^6.3.2
   smooth_page_indicator: ^1.2.1
   get: ^4.7.2
+  iconsax: ^0.0.8
+  provider: ^6.1.5+1
+  supabase_flutter: ^2.10.3
+  shared_preferences: ^2.5.3
+  fluttertoast: ^9.0.0
 
 dev_dependencies:
   flutter_test:
@@ -62,7 +67,8 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - lib/assets/
+    - lib/assets/onboarding/
+    - lib/assets/authentication/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
